@@ -2,7 +2,7 @@
 void big3()
 {
   int a,b,c;
-  printf("Enter the three numbers\n");
+  printf("\n\nEnter the three numbers\n");
   scanf("%d%d%d",&a,&b,&c);
   if( a>b && a>c )
     printf("%d is greater",a);
