@@ -14,5 +14,5 @@ void rev()
   if(rev==num)
     printf("%d is a palindrome",num);
   else
-    printf("%d is not a palindrome");
+    printf("%d is not a palindrome",num);
 }
