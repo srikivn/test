@@ -12,7 +12,7 @@ void rev()
     n = n/10;
   }
   if(rev==num)
-    printf("%d is a palindrome",num);
+    printf("%d is a palindrome\n\n",num);
   else
-    printf("%d is not a palindrome",num);
+    printf("%d is not a palindrome\n\n",num);
 }
