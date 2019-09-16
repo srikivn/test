@@ -1,8 +1,8 @@
 #include<stdio.h>
 void rev()
 {
-  int num,rem,n,rev=1;
-  printf("\n\nEnter the number to check for alindrome\n");
+  int num,rem,n,rev=0;
+  printf("\n\nEnter the number to check for palindrome\n");
   scanf("%d",&num);
   n=num;
   while(n!=0)
