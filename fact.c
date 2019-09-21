@@ -1,3 +1,4 @@
+/*C Program to find factorial of a number */
 #include<stdio.h>
 void fact()
 {
