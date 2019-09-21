@@ -1,3 +1,4 @@
+/*C program to find greatest of three numbers*/
 #include<stdio.h>
 void big3()
 {
