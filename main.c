@@ -1,3 +1,4 @@
+/*Main Program*/
 void big3();
 void fact();
 void rev();
