@@ -6,9 +6,9 @@ void big3()
   printf("\n\nEnter the three numbers to get the biggest\n");
   scanf("%d%d%d",&a,&b,&c);
   if( a>b && a>c )
-    printf("%d is greater",a);
+    printf("%d is greater\n",a);
   else if ( b>a && b>c )
-    printf("%d is greater",b);
+    printf("%d is greater\n",b);
   else
-    printf("%d is greater",c);
+    printf("%d is greater\n",c);
  }
