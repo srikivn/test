@@ -80,7 +80,7 @@ stages {
 				set +x
 					file="$(pwd)/test/ABC.exe"
 					[[ -f "$file" ]] && sudo rm -f "$file"
-					pwd; sudo chmod 777 build; ./build 1> /dev/null
+					pwd; sudo chmod 777 builds; ./build 1> /dev/null
 					
 				echo -e "\n\n**************************** This is a Deploy JOB for $file**************************** "
 				if [[ -f "$file" ]]; then 
