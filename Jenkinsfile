@@ -6,7 +6,7 @@ stages {
                 echo 'Building..'
 				sh '''
 						set +x
-						cd test
+						#cd test
 						echo -e "\n\n**************************** This is a Build JOB **************************** "
 
 						if [[ -x "ABC.exe" ]]; then
