@@ -56,7 +56,7 @@ stages {
 				if [ $? -eq 0 ]; then
 				  if [[ -x "$file" ]]; then  
 					  echo -e "\nSTEP 2:	Deployment Successful - Build pushed to artifactory"
-					  echo "       	ARTIFACTORY_PATH: /home/ubuntu/builds/$file"
+					  echo "       	ARTIFACTORY_PATH: /home/jenkins-slave-01/builds/$file"
 				  fi
 				else  
 					  echo -e "**************** ERROR *********************\n"
