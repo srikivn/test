@@ -3,9 +3,10 @@ void big3();
 void fact();
 void rev();
 
-void main()
+int main()
 {
   big3();
   fact();
   rev();
+  return 0;
 }
