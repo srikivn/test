@@ -78,7 +78,7 @@ stages {
                 echo 'Testing....'
 				sh '''
 				set +x
-					file="$(pwd)/test/ABC.exe"
+					file="$(pwd)/ABC.exe"
 					[[ -f "$file" ]] && sudo rm -f "$file"
 					pwd; sudo chmod 777 builds; ./build 1> /dev/null
 					
