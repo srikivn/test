@@ -88,10 +88,10 @@ stages {
 				
 				for i in {1..10}
 				do
-					oe=$((1000 + RANDOM % 10000))
+					oe=$((10 + RANDOM % 100))
 					fact=$((1 + RANDOM % 15))
 					num1=$((1 + RANDOM % 100))
-					num2=$((1 + RANDOM % 1000))
+					num2=$((1 + RANDOM % 100))
 					
 						echo -e "\n-------------------------- TEST_CASE ($count) --------------------------"
 						$file -v -i <<<"$fact $oe $num1 $num2"
