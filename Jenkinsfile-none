@@ -71,7 +71,7 @@ stages {
             }
         }
         stage('test') {
-          agent { label "master" }
+          agent { label "slave1" }
             steps {
                 echo 'Testing....'
 				sh '''
