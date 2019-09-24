@@ -2,7 +2,7 @@ pipeline {
 agent none
 stages {
         stage('Build') {
-          agent master
+          agent { label "master" }
             steps {
                 echo 'Building..'
 				sh '''
@@ -37,7 +37,7 @@ stages {
             }
         }
         stage('deploy') {
-          agent: slave1
+          agent { label "slave1" }
             steps {
                 echo 'Deploying to TEST environment..'
 				sh '''
@@ -71,7 +71,7 @@ stages {
             }
         }
         stage('test') {
-          agent: master
+          agent { label "master" }
             steps {
                 echo 'Testing....'
 				sh '''
