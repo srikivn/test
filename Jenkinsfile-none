@@ -2,7 +2,7 @@ pipeline {
 agent none
 stages {
         stage('Build') {
-          agent { label "master" }
+          agent { label "slave1" }
             steps {
                 echo 'Building..'
 				sh '''
